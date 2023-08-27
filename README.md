@@ -1,6 +1,8 @@
 # reclaim.ai
 Tools for reclaim.ai
 
+https://github.com/politician/reclaim.ai/assets/3155568/819c2732-f790-471f-b810-345a42137e3f
+
 ## Native app
 
 [Install Nativefier](https://github.com/nativefier/nativefier#installation)
