@@ -16,6 +16,8 @@ mv Reclaim*/Reclaim.app /Applications
 rm -rf reclaim.png Reclaim*
 ```
 
+> Use `https://app.reclaim.ai/tasks` in the URL if you want to open Tasks by default rather than the planner
+
 ## Apple Shortcut
 
 Add a task from the mac menu bar or using Siri directly (or through any other mean to use shortcuts!)
