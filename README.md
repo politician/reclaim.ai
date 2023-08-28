@@ -11,12 +11,12 @@ Then run:
 ```sh
 cd $(mktemp -d)
 curl -s https://app.reclaim.ai/img/icons/apple-touch-icon.png -o reclaim.png
-nativefier "https://app.reclaim.ai/planner?range=WEEK" --name Reclaim --darwin-dark-mode-support --single-instance --honest --internal-urls ".*?" --icon reclaim.png
+nativefier "https://app.reclaim.ai/tasks" --name Reclaim --darwin-dark-mode-support --single-instance --honest --internal-urls ".*?" --icon reclaim.png
 mv Reclaim*/Reclaim.app /Applications
 rm -rf reclaim.png Reclaim*
 ```
 
-> Use `https://app.reclaim.ai/tasks` in the URL if you want to open Tasks by default rather than the planner
+> Use `https://app.reclaim.ai/planner?range=WEEK` as the URL in the command above if you want to open **Planner** by default rather than **Tasks**
 
 ## Apple Shortcut
 
